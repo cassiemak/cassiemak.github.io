@@ -1,37 +1,42 @@
-article{
-  font-style: arial;
-  font-size: 40px;
-  color: orange;
-  background-color: blue;
-  /*height: 20px;*/
+
+body{
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+section{
+  margin: auto;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 h1{
-  font-size: 100px;
-  margin: 30px;
-  padding: 20px;
-  color: purple;
-  text-align: center;
+  font-size: 60px;
 }
 
-img{
-  height: 150px;
-  width: 200px;
-  border-width: 60px;
-  border-color: green;
-  position: center;
+h2{
+  font-size: 24px;
 }
 
 p{
-  font-size: 20px;
-  z-index: 40px;
-}
-div{
-  background-color: red;
-  position: right;
+  padding: 20px;
+  font-size: 24px;
 }
 
-footer{
-  overflow: auto;
-  height: 50px;
+a{
+  color: white;
+  text-decoration: none;
 }
+
+a:hover{
+  color: orange;
+  text-decoration: none;
+}
+
