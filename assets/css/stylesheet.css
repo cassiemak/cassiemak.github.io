@@ -1,0 +1,37 @@
+article{
+  font-style: arial;
+  font-size: 40px;
+  color: orange;
+  background-color: blue;
+  /*height: 20px;*/
+}
+
+h1{
+  font-size: 100px;
+  margin: 30px;
+  padding: 20px;
+  color: purple;
+  text-align: center;
+}
+
+img{
+  height: 150px;
+  width: 200px;
+  border-width: 60px;
+  border-color: green;
+  position: center;
+}
+
+p{
+  font-size: 20px;
+  z-index: 40px;
+}
+div{
+  background-color: red;
+  position: right;
+}
+
+footer{
+  overflow: auto;
+  height: 50px;
+}
